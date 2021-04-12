@@ -6,8 +6,11 @@ A sorting algorithm is an algorithm made up of a series of instructions that tak
  Efficient sorting is important for optimizing the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists.
 
 ### [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
-    - Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945
+    - Merge sort is a divide and conquer algorithm that was invented
+     by John von Neumann in 1945
     - Conceptually, a merge sort works as follows:
-    1. Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).
-    2. Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.
-    
+        1. Divide the unsorted list into n sublists, each containing
+         one element (a list of one element is considered sorted).
+        2. Repeatedly merge sublists to produce new sorted sublists 
+         until there is only one sublist remaining. 
+         This will be the sorted list.
